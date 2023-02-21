@@ -323,6 +323,7 @@ with Medium:
                             df=pd.read_excel(files)
                             return df 
                         except Exception as e:
+                            print(e)
                             pass
 
 
