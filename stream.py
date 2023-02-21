@@ -19,7 +19,6 @@ def convert_df(df):
      return df.to_csv(index=False).encode('utf-8')
 
 
-image = Image.open('/Users/ifreen/Downloads/sunrise.jpg')
 col1, col2, col3 = st.columns([1,6,1])
 with col2:
     st.header(":green[Simple Text Preprocessing App!]")
