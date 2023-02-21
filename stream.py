@@ -320,11 +320,11 @@ with Medium:
 
                     except Exception as e:
                         try:
-                            df=pd.read_excel(files)
+                            df=pd.read_excel(files,encoding_errors='ignore')
                             return df 
                         except Exception as e:
                             print(e)
-                            pass
+                            st.write(e)
 
 
             def multiselect():
