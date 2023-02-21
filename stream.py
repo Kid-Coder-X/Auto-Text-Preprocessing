@@ -320,7 +320,7 @@ with Medium:
 
                     except Exception as e:
                         try:
-                            df=pd.read_excel(files,encoding_errors='ignore')
+                            df=pd.read_excel(files)
                             return df 
                         except Exception as e:
                             print(e)
