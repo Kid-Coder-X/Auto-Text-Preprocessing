@@ -12,7 +12,7 @@ import seaborn as sns
 import numpy as np
 
 punct=string.punctuation
-
+nltk.download('popular')
 @st.cache
 def convert_df(df):
      # IMPORTANT: Cache the conversion to prevent computation on every rerun
