@@ -7,3 +7,4 @@ Pillow==9.4.0
 seaborn==0.11.1
 streamlit==1.17.0
 openpyxl
+flask
